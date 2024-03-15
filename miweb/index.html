@@ -4,87 +4,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Enrique</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>CV Enrique Velasco</title>
+    
 </head>
 
 <body>
     <main class="main-page">
         <header class="page-nav">
-            <img src="ev.jpg" width="90px" height="70px"></li>
+            <img id="logo-autor" src="logo_iniciales.png" width="150px" height="100px">
             <ul class="menu">
-                <li>Home</li>
-                <li><a href="#about">About</a></li>
-                <li>Team</li>
-                <li><a href="#news">Papers & Publicactions</a></li>
-                <li><a href="#ppagina">Contact</a></li>
-
+                <li class="home"><a href="#home">Inicio</a></li>
+                <li><a href="#sobremi">Sobre mi</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#resumen">Resumen</a></li>
+                <li><a href="#publicaciones">Publicaciones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
-            <i class="fas fa-search"></i>
+            <div class="logo">
+                M<span class="color">S</span>
+            </div>
+            <!-- <i class="fas fa-search"></i> -->
         </header>
-        <section id="autor">
-            <h1>J. Enrique Velasco</h1>
-            <h2>Data Scientist & Computational Physics</h2>
-            <h4>
-                Enrique has a degree in materials physics from Autonomous University of Puebla and a PhD obtained from
-                Polytechnic University of Catalonia.
-            </h4>
-        </section>
-        <section id="news">
-            <div>
-                <h1>LATEST NEWS</h1>
-                <div class="csuc">Data curator (CSUC)</div>
-                <div class="irta">Data Analist (IRTA)</div>
-                <div class="article">Publication: Accurate Estimation of Chlorophyll-a Concentration in the Coastal
-                    Areas of the Ebro Delta (NW Mediterranean) Using Sentinel-2 and Its Application in the Selection of
-                    Areas for Mussel Aquaculture </div>
 
+        <section>
+            <div class="inf-autor">
+
+                <h1>J. Enrique Velasco</h1>
+                <h2>Cientifico de datos, Fisico Computacional & Aprendiz Fullstack</h2>
+                <h3>Al final todo son números solo cambia el ambiente</h3>
+
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div>
+                <img src="fotocv.jpeg" alt="">
             </div>
         </section>
-        <section id="about">
-            <div>
-                <h1>About</h1>
-                <div class="lineatemp">
-                    <div class="fila">
-                        <div class="disco">
-                            <div></div>
-                        </div>
-                        <div>2015-2019</div>
-                        <div>PhD Degree</div>
+
+        <section id="sobremi" class="sobremi">
+            <div class="contenedor-sobremi">
+                <h2 class="titulo-sobremi">Sobre Mi</h2>
+                <p>Analista de datos & Aprendiz de Fullstack</p>
+                <p>Enrique Velasco estudió en la Universidad Autonoma de Puebla (México) donde obtuvo el grado de 
+                    Fisica de Materiales. Realizó su estudio de doctorado en la Universidad Politenica de Cataluña
+                    en Física Computacional y Aplicada. Realizo una estancias postdoctoral en la Facultad de Fisica y Quimica
+                    (Universidas de Barcelona). Participo en los talleres de Modelo numerico y atomistico en la Universidad de Dublín y
+                    la Universidad de Andalucía.
+                    Realizo una maestria en la Universidad Oberta de Cataluña en Ciencia de Datos, y actualmente 
+                    se encuentra cursando un posgrado en FullStack.</p>
+                <div class="fila">
+                    <div class="col">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="perfil">Perfil</span>
+                        <p>Me centro en la compresion, investigacion y analisis de los datos
+                            para mejorar procesos y sistemas. Desarrollar y explotar algoritmos para facilitar 
+                            la busqueda de informacion, con el objetivo de analizar y dar sentido a la informacion relevante.
+                        </p>
                     </div>
-                    <div class="fila">
-                        <div class="disco">
-                            <div></div>
-                        </div>
-                        <div>2020-2021</div>
-                        <div>Postdoctoral Position (UB)</div>
+                    <div class="col">
+                        <i class="fa-solid fa-locaton-pin"></i>
+                        <span class="ubicacion">Ubicación</span>
+                        <p>La Rapita, provincia de Tarragona.</p>
                     </div>
-                    <div class="fila">
-                        <div class="disco">
-                            <div></div>
-                        </div>
-                        <div>2022</div>
-                        <div>Data Analyst in IRTA</div>
-                    </div>
-                    <div class="fila">
-                        <div class="disco">
-                            <div></div>
-                        </div>
-                        <div>2023</div>
-                        <div>Data Curator in CSUC </div>
-                    </div>
-                    <div class="fila">
-                        <div class="disco">
-                            <div></div>
-                        </div>
-                        <div>2024 - </div>
-                        <div>Data Analyst in Perfect Group </div>
+                    <div class="col">
+                        <i class="fa-solid fa-flag"></i>
+                        <span class="intereses">Intereses</span>
+                        <li>Senderismo</li>
+                        <li>BTT</li>
+                        <li>Paddle-Surf</li>
                     </div>
                 </div>
             </div>
+        </section>
+        <!--Habilidades-->
+        <section class="habilidades" id="habilidades">
+            <div class="contenido-seccion">
+                <h2>Mis habilidades</h2>
+                <h3>Me especializo en:</h3>
 
+                <div class="fila">
+                    <div class="col">
+                        <span>Python</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="col"></div>
+                    <span>Rstudio</span>
+                    <span>70%</span>
+                </div>
 
+                <div class="fila">
+                    <div class="col">
+                        <span>QGIS</span>
+                        <span>50%</span>
+                    </div>
+                    <div class="col"></div>
+                    <span>Linux</span>
+                    <span>50%</span>
+                </div>
+                <div class="fila">
+                    <div class="col">
+                        <span>HTML/CSS</span>
+                        <span>10%</span>
+                    </div>
+                    <div class="col"></div>
+                    <span>Javascript</span>
+                    <span>1%</span>
+                </div>
+            </div>
         </section>
         <footer id="ppagina">
             <ul>
