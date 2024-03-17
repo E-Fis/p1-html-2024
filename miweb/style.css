@@ -11,19 +11,20 @@
 .main-page{
     background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), 
     url("fondo.jpg");   
-    background-size: cover;
+    background-size:  cover;
     background-position: center center;
     color: #fff;
 }
-.logo-cv{
+/* .logo-cv{
     text-align: center;
     padding: 2.5em;
-}
+} */
 
 .inf-autor{
     margin: auto;
     text-align: center;
     padding: 0 10rem;
+    
 }
 
 .inf-autor{
@@ -35,6 +36,8 @@
     font-size: 3rem;
     letter-spacing: 0.3rem;
     color: #fff;
+    padding: 100px 0 100px 0;
+    
 }
 
 .inf-autor h2{
@@ -87,12 +90,12 @@
 }
 
 .titulo-sobremi{
-    font-family: "Yellowtail";
+    font-family: "Titillium Web";
     font-size: 1.5rem;
 }
 
 .sobremi{
-    background-color: #e6e6e6;
+    background-color: #726464;
     padding: 140px 0 100px 0;
     text-align: center;
 }
@@ -104,52 +107,99 @@
 
 }
 
+.contenedor-sobremi p{
+    text-align: justify;
+    text-justify: inter-word;
+    ;
+}
 
-
-/* .page-nav{
-    grid-column: 1 / -1;
-    grid-row: 1 / 2;
-    padding:  1rem 1rem 1rem 1rem;
-    background-color: #be6a6a;
-    box-shadow: 0 0 0.7rem rgba(243, 19, 19, 0.5);
-    
-    
-   
-    
-}  */
-
-/*
-
-.page-nav #logo-autor{
-    position: relative;
-    background-color: goldenrod;
-    
-    top: 1.5rem;
-    float: center;
-    margin-left: 15rem;
-    
-}*/
-
-/* .page-nav ul {
-    
-    margin: auto;
-
+.contenedor-sobremi .fila{
     display: flex;
-    align-items: left;
-    font-size: 1.5rem;
-    list-style: none;
-    justify-content: right;
-    margin-right: 12rem;
-    flex-flow: nowrap;
-    margin-top: 2.5rem;
-    margin-bottom: 0rem;
-    
-}*/
+    margin-top: 3rem;
+    justify-content: space-between;
+}
 
-/* 
-.page-nav li {
-    margin: 0 0.5rem;
-    position: relative; 
-    margin-top: -5rem;
+.contenedor-sobremi .fila .col{
+    width: 15rem;
+}
+
+.contenedor-sobremi .fila .col i{
+    display: inline-block;
+    color: goldenrod;
+    width: 2rem;
+    height: 1.5rem;
+    animation: pulse 2s infinite;
     
-}*/
+}
+
+.contenedor-sobremi .fila .col span{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.col li{
+    list-style-type: none;
+}
+
+.contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+
+.habilidades{
+    padding: 80px 50px 100px 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    
+    
+}
+
+.contenido-seccion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.contenido-seccion .fila .col{
+    width: 47%;
+    text-align: left;
+}
+
+/*Pie de pagina*/
+
+
+.pie-pagina{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+
+.titulo-pie-pagina{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.titulo-pie-pagina{
+    font-size: 30px;
+}
+.pie-pagina ul i{
+    color: goldenrod;
+
+}
+
+.pie-pagina ul li{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
